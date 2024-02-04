@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine;
+}
+
+.contenedor{
+    outline: 3px solid;
+    outline-color: black;
+    background-color: red;
+    position: sticky;
+    top: 5px;
+
+}
+
+.contenedorA{
+    position: fixed;
+    top: 0;
+}
+.contenedorB{
+    position: fixed;
+    top: 0;
+}
+.contenedorC{
+    position: fixed;
+    top: 0;
+}
+.contenedorD{
+    position: fixed;
+    top: 0;
+}
+.contenedorE{
+    position: fixed;
+    top: 0;
+}
+.contenedorF{
+    position: fixed;
+    top: 0;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    min-height: 100vh;
+}
+
+header h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+main{
+    width: 100%;
+}
+
+.blog{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10%;
+    border: 3px solid black;
+}
+
+.post{
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+@media screen and (min-width:768px){
+    .post{
+        width: 45%;
+        display: inline-block;
+    }
+}
+@media screen and (min-width:992px){
+    .post{
+        width: 30%;
+        display: inline-block;
+    }
+}
+@media screen and (min-width:1440px){
+    .post{
+        width: 20%;
+        display: inline-block;
+    }
+}
+
+section{
+    text-align: center;
+}
+
+img{
+    margin-top: 5px;
+}
